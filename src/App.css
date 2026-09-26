@@ -1338,3 +1338,51 @@ button{
   transform:translateY(-2px);
   cursor:pointer;
 }
+
+@media (max-width: 768px){
+
+  .app-layout{
+    flex-direction:column;
+  }
+
+  .sidebar{
+    width:100%;
+    min-height:auto;
+  }
+
+  .task-columns{
+    flex-direction:column;
+  }
+
+  .task-column{
+    width:100%;
+  }
+
+  .filters{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  .filters input,
+  .filters select{
+    width:100%;
+    max-width:none;
+  }
+
+  .login-page{
+    flex-direction:column;
+  }
+
+  .login-left,
+  .login-right{
+    width:100%;
+  }
+
+  .task-details-container{
+    padding:0 15px;
+  }
+
+  .modal{
+    width:90%;
+  }
+}
