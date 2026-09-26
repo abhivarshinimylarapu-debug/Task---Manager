@@ -1,12 +1,12 @@
 # 📋 Task Manager
 
-A simple and responsive task management application built with React.js. It allows users to create, manage, organize, and track tasks based on their status, priority, and deadlines.
+A simple and responsive task management application built with **React.js**. The application allows users to create, organize, update, and track tasks based on their status, priority, and deadlines.
 
 ## ✨ Features
 
-- 🔐 User login
+- 🔐 User Login
 - ➕ Create new tasks
-- ✏️ Manage and update tasks
+- ✏️ Update and manage tasks
 - 🗑️ Delete tasks
 - 📌 Set task priorities
 - 📅 Set task deadlines
@@ -17,39 +17,44 @@ A simple and responsive task management application built with React.js. It allo
 - 🔍 Search tasks
 - 🎯 Filter tasks by priority
 - 📄 View detailed task information
-- 💾 Tasks are stored in the browser using localStorage
+- 💾 Store tasks using browser `localStorage`
 - 📱 Responsive user interface
 
 ## 🛠️ Tech Stack
 
-- React.js
-- JavaScript
-- HTML
-- CSS
-- Bootstrap
-- React Router
-- localStorage
+- **React.js**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+- **Bootstrap**
+- **React Router**
+- **localStorage**
 
 ## 🔐 Demo Login
 
-Use these credentials to explore the application:
+Use the following credentials to explore the application:
 
 **Email:** `sara@example.com`  
 **Password:** `user123`
 
-> Note: This project currently uses demo/local authentication. It does not use a production authentication backend.
+> **Note:** This project currently uses demo/local authentication for demonstration purposes. It does not use a production authentication backend.
 
 ## 🌐 Live Demo
 
-[Open Task Manager](https://task-manager-one-tan-30.vercel.app)
+👉 [Open Task Manager](https://task-manager-one-tan-30.vercel.app)
 
-## 📸 Application
+## 📸 Application Overview
 
-The application provides a dashboard where tasks can be organized into different stages:
+The application provides a dashboard where tasks can be organized according to their current status.
 
-- **To Do** — Tasks that are yet to be started
-- **In Progress** — Tasks currently being worked on
-- **Done** — Completed tasks
+### To Do
+Tasks that are yet to be started.
+
+### In Progress
+Tasks that are currently being worked on.
+
+### Done
+Tasks that have been completed.
 
 ## 🚀 Getting Started
 
